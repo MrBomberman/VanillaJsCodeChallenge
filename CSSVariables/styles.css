@@ -1,0 +1,31 @@
+body {
+    background-color: #193549;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .controls {
+    margin-bottom: 54px
+  }
+  input {
+    width: 110px;
+  }
+  
+  :root {
+    --base: #ffc600;
+    --spacing: 20px;
+    --blur: 10px;
+  }
+  
+  img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));  /*дает размытие  */
+  }
+  .hl {
+    color: var(--base);
+  }
