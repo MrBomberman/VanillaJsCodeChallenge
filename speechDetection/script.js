@@ -24,6 +24,9 @@ recognition.addEventListener('result', (e) =>{ // как только мы пе�
         p = document.createElement('p');
         words.appendChild(p);
     }
+    if(transcript.includes("today is a sunny weather")){
+        alert('Today the temprature is 26+')
+    }
     
 })
 
